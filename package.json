@@ -2,14 +2,12 @@
   "name": "ahmed-hussieny",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Ahmed-Hussieny.github.io/AhmedHussieny/",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",
