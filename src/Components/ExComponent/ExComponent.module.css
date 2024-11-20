@@ -1,0 +1,17 @@
+.arrow{
+    position: relative;
+    left: 0;
+}
+.ExItem{
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ExItem:hover .arrow{
+    cursor: pointer;
+    left: 5px;
+    top: -5px;
+}
+.ExItem:hover{
+    background: #00010cd8;
+}

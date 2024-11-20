@@ -1,0 +1,15 @@
+p{
+    color: rgba(151, 147, 147, 0.945);
+    font-size: 1.1em;
+}
+.icons img{
+    width: 30px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.icons img:hover{
+    opacity: 1;
+}
+.aboutCont{
+    height: 75vh;
+}

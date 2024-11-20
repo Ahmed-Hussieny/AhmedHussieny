@@ -1,0 +1,21 @@
+
+
+@media only screen and (max-width: 1000px) {
+    .sm{
+        display: none;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .smIn{
+        display: none;
+    }
+}
+h6{
+    font-weight: 500;
+}
+
+.table>:not(caption)>*>* {
+    background-color: transparent !important;
+    border-bottom-width : 0px !important;
+    color:white !important ;
+}

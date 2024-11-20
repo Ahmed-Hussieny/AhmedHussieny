@@ -1,0 +1,14 @@
+.arrow{
+    position: relative;
+    left: 0;
+}
+.ExItem{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ExItem:hover .arrow{
+    cursor: pointer;
+    left: 5px;
+    top: -5px;
+}

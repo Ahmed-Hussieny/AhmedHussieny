@@ -1,0 +1,30 @@
+
+.lineIn{
+    height: 0.1px;
+    width:40px;
+    background-color: #706e6e;
+}
+.line{
+    cursor: pointer;
+}
+.line p{
+    color: rgba(151, 147, 147, 0.945);
+    font-size: 15px;
+    font-weight: bold;
+}
+.line:hover .lineIn{
+    background-color: white;
+    width:90px;
+    transition: all 1s;
+}
+.line:hover p{
+    color: white;
+    transition: all 1s;
+}
+.active .lineIn{
+    background-color: white;
+    width:90px;
+}
+.active p{
+    color: white;
+}
