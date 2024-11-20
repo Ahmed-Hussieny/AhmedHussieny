@@ -7,7 +7,9 @@ import { ArchiveData } from '../../assets/dumyData/ExData';
 const Archive = () => {
     const navigate = useNavigate();
     return (
-        <div className="container mt-5 text-start">
+        <div className="container mt-5 vh-100 text-start">
+            <div className='alert alert-success text-center'>Other projects are being added soon!
+            </div>
             <div onClick={()=>navigate('/')} style={{cursor:'pointer'}} className="text-start d-flex align-items-center">
                 <img width={20} height={20} src={arrow} alt='arrow' />
                 <p className='m-0 p-0 ms-2' style={{ color: "#5eead4" }}>Ahmed Hussieny</p>
@@ -27,7 +29,6 @@ const Archive = () => {
                 {ArchiveData.map((item) => {
                     return <ArchiveItem Data={item} />
                 })}
-                
                 </tbody>
             </Table>
 

@@ -85,163 +85,37 @@ export const ExData = [
 
 export const ArchiveData = [
     {
-        from: "2024",
-        to: "2024",
-        name: "string",
-        description: "Worked on multiple projects using Qt C++, QML, AngularJS, and PHP. \n Developed interactive applications, optimized user interfaces, and implemented backend services.",
+        from: "2021",
+        to: "2021",
+        name: "DevFolio App",
+        description: "Portfolio App for Developers, Designers, and Freelancers. \n Built with HTML, CSS, JS, and Bootstrap. \n Features include contact form.",
         image: "",
-        company:"Upstatement",
-        Project:"Project Name",
-        title: "Software Developer",
-        link:"https://korastats.com/site/index.php",
+        company:"University",
+        Project:"DevFolio App",
+        title: "",
+        link:"https://ahmed-hussieny.github.io/DevFolio/",
         items: [
-            {id:1, name:'AngularJS'},
-            {id:2, name:'JavaScript'},
-            {id:3, name:'C++'},
-            {id:4, name:'QT'},
-            
-        ]
-    },
-    {
-        from: "2024",
-        to: "2024",
-        name: "string",
-        description: "Worked on multiple projects using Qt C++, QML, AngularJS, and PHP. \n Developed interactive applications, optimized user interfaces, and implemented backend services.",
-        image: "",
-        company:"Upstatement",
-        Project:"Project Name",
-        title: "Software Developer",
-        link:"https://korastats.com/site/index.php",
-        items: [
-            {id:1, name:'AngularJS'},
-            {id:2, name:'JavaScript'},
-            {id:3, name:'C++'},
-            {id:4, name:'QT'},
-            
-        ]
-    },
-    {
-        from: "2024",
-        to: "2024",
-        name: "string",
-        description: "Worked on multiple projects using Qt C++, QML, AngularJS, and PHP. \n Developed interactive applications, optimized user interfaces, and implemented backend services.",
-        image: "",
-        company:"Upstatement",
-        Project:"Project Name",
-        title: "Software Developer",
-        link:"https://korastats.com/site/index.php",
-        items: [
-            {id:1, name:'AngularJS'},
-            {id:2, name:'JavaScript'},
-            {id:3, name:'C++'},
-            {id:4, name:'QT'},
-            
-        ]
-    },
-    {
-        from: "2024",
-        to: "2024",
-        name: "string",
-        description: "Worked on multiple projects using Qt C++, QML, AngularJS, and PHP. \n Developed interactive applications, optimized user interfaces, and implemented backend services.",
-        image: "",
-        company:"Upstatement",
-        Project:"Project Name",
-        title: "Software Developer",
-        link:"https://korastats.com/site/index.php",
-        items: [
-            {id:1, name:'AngularJS'},
-            {id:2, name:'JavaScript'},
-            {id:3, name:'C++'},
-            {id:4, name:'QT'},
-            
-        ]
-    },
-    {
-        from: "2024",
-        to: "2024",
-        name: "string",
-        description: "Worked on multiple projects using Qt C++, QML, AngularJS, and PHP. \n Developed interactive applications, optimized user interfaces, and implemented backend services.",
-        image: "",
-        company:"Upstatement",
-        Project:"Project Name",
-        title: "Software Developer",
-        link:"https://korastats.com/site/index.php",
-        items: [
-            {id:1, name:'AngularJS'},
-            {id:2, name:'JavaScript'},
-            {id:3, name:'C++'},
-            {id:4, name:'QT'},
-            
-        ]
-    },
-    {
-        from: "2024",
-        to: "2024",
-        name: "string",
-        description: "Worked on multiple projects using Qt C++, QML, AngularJS, and PHP. \n Developed interactive applications, optimized user interfaces, and implemented backend services.",
-        image: "",
-        company:"Upstatement",
-        Project:"Project Name",
-        title: "Software Developer",
-        link:"https://korastats.com/site/index.php",
-        items: [
-            {id:1, name:'AngularJS'},
-            {id:2, name:'JavaScript'},
-            {id:3, name:'C++'},
-            {id:4, name:'QT'},
-            
-        ]
-    },
-    {
-        from: "2024",
-        to: "2024",
-        name: "string",
-        description: "Worked on multiple projects using Qt C++, QML, AngularJS, and PHP. \n Developed interactive applications, optimized user interfaces, and implemented backend services.",
-        image: "",
-        company:"Upstatement",
-        Project:"Project Name",
-        title: "Software Developer",
-        link:"https://korastats.com/site/index.php",
-        items: [
-            {id:1, name:'AngularJS'},
-            {id:2, name:'JavaScript'},
-            {id:3, name:'C++'},
-            {id:4, name:'QT'},
+            {id:1, name:'HTML'},
+            {id:2, name:'CSS'},
+            {id:3, name:'JS'},
+            {id:4, name:'Bootstrap'},
             
         ]
     },{
-        from: "2024",
-        to: "2024",
-        name: "string",
-        description: "Worked on multiple projects using Qt C++, QML, AngularJS, and PHP. \n Developed interactive applications, optimized user interfaces, and implemented backend services.",
+        from: "2021",
+        to: "2021",
+        name: "PACMAN Game",
+        description: "PacMan Game Using OpenGL, Textures, Levels, random Ghost movement, Sounds (death , eat , GameOver)",
         image: "",
-        company:"Upstatement",
-        Project:"Project Name",
-        title: "Software Developer",
-        link:"https://korastats.com/site/index.php",
+        company:"University",
+        Project:"PACMAN Game",
+        title: "",
+        link:"https://github.com/Ahmed-Hussieny/PACMAN",
         items: [
-            {id:1, name:'AngularJS'},
-            {id:2, name:'JavaScript'},
-            {id:3, name:'C++'},
-            {id:4, name:'QT'},
-            
-        ]
-    },{
-        from: "2024",
-        to: "2024",
-        name: "string",
-        description: "Worked on multiple projects using Qt C++, QML, AngularJS, and PHP. \n Developed interactive applications, optimized user interfaces, and implemented backend services.",
-        image: "",
-        company:"Upstatement",
-        Project:"Project Name",
-        title: "Software Developer",
-        link:"https://korastats.com/site/index.php",
-        items: [
-            {id:1, name:'AngularJS'},
-            {id:2, name:'JavaScript'},
-            {id:3, name:'C++'},
-            {id:4, name:'QT'},
-            
+            {id:1, name:'JAVA'},
+            {id:2, name:'OpenGl'},
+            {id:3, name:'Textures'},
+            {id:4, name:'sounds'},
         ]
     },
 ]

@@ -27,13 +27,13 @@ const ExComponent = ({Data}:ExComponentProps) => {
 
             </div>
             <div className='col-md-9'>
-                <div className='d-flex align-items-center'>
+                {Data.title&&<div className='d-flex align-items-center'>
                     
                     <h5 className='me-2 '>{Data.title}</h5>
                     <div>
                         <img className={style.arrow} width={16} height={16} src={arrowIcon} alt='arrowIcon'/>
                     </div>
-                </div>
+                </div>}
                 <p>{Data.description}</p>
                 {Data.items &&<div className='row'>
                     {Data.items.map((item)=>{
