@@ -6,10 +6,10 @@ const LayOut = () => {
         <>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 d-lg-none d-block mb-5">
+                    <div className="col-md-6 d-lg-none d-block mb-5 ">
                         <About />
                     </div>
-                    <div className="col-md-6 d-none d-lg-block mb-5" style={{ position: 'sticky', top: 80, alignSelf: 'flex-start' }}>
+                    <div className="col-md-6 d-none d-lg-block mb-5 " style={{ position: 'sticky', top: 80, alignSelf: 'flex-start' }}>
                         <About />
                     </div>
                     <div className="col-md-6 mt-4">

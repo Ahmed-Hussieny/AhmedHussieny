@@ -28,6 +28,11 @@ const About = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Handle click and set active section
+  const handleNavClick = (section: string) => {
+    setActiveSection(section);
+  };
+
   return (
     <div className="text-start d-flex flex-column aboutCont justify-content-between">
       <div>
@@ -37,16 +42,16 @@ const About = () => {
           <p className="w-50">I build accessible, pixel-perfect digital experiences for the web.</p>
         </div>
         <div className="my-5 d-none d-lg-block">
-          <a href="#About" className="text-decoration-none">
-            <NavComp Text="ABOUT" active={activeSection === 'About'} />
+          <a href="#About" className="text-decoration-none" onClick={() => handleNavClick('About')}>
+            <NavComp Text="ABOUT" isActive={activeSection === 'About'} />
           </a>
           <div className="my-4">
-            <a href="#Experience" className="text-decoration-none">
-              <NavComp Text="EXPERIENCE" active={activeSection === 'Experience'} />
+            <a href="#Experience" className="text-decoration-none" onClick={() => handleNavClick('Experience')}>
+              <NavComp Text="EXPERIENCE" isActive={activeSection === 'Experience'} />
             </a>
           </div>
-          <a href="#PROJECTS" className="text-decoration-none">
-            <NavComp Text="PROJECTS" active={activeSection === 'PROJECTS'} />
+          <a href="#PROJECTS" className="text-decoration-none" onClick={() => handleNavClick('PROJECTS')}>
+            <NavComp Text="PROJECTS" isActive={activeSection === 'PROJECTS'} />
           </a>
         </div>
       </div>

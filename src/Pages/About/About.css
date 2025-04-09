@@ -19,10 +19,23 @@ p{
 
     font-size: 18px;
     font-weight: bold;
-    transition: color 0.3s ease;
+    transition: color 1s ease;
   }
   
   .nav-item.active {
     color: white;
   }
+  .navText {
+    color: gray; /* or your default color */
+    transition: color 0.3s ease;
+  }
   
+  .navText.active-nav {
+    color: white;
+  }
+  
+  /* Optional: Add hover effects */
+  .navText:hover {
+    color: white;
+    cursor: pointer;
+  }
