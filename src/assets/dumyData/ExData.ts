@@ -118,4 +118,190 @@ export const ArchiveData = [
             {id:4, name:'sounds'},
         ]
     },
+    {
+        from: "2024",
+        to: "2024",
+        name: "Alsharbi",
+        description: "Al-Sharbi offers a bilingual website, featuring a modern design and a seamless user experience. It allows users to easily submit their applications through a custom form, along with an interactive interface that provides an easier user experience.",
+        image: "",
+        company:"Freelance",
+        Project:"Alsharbi",
+        title: "Alsharbi",
+        link:"https://alsherbi.com/",
+        items: [
+            {id:1, name:'React.js'},
+            {id:2, name:'JavaScript'},
+            {id:3, name:'HTML'},
+            {id:4, name:'CSS'},
+            {id:5, name:'Bootstrap'},
+            {id:6, name:'React-Redux'},
+            {id:7, name:'React-Router'},
+            {id:8, name:'Axios'},
+            {id:9, name:'Formik'},
+            {id:10, name:'Yup'},
+        ]
+    },
+    {
+        from: "2023",
+        to: "2023",
+        name: "E Commerce App",
+        description: "E Commerce App using ReactJs redux toolkit, react redux, JQuery, CSS, HTML, Bootstrap , Formik , Yup & integration with BackEnd",
+        image: "",
+        company:"University",
+        Project:"E Commerce App",
+        title: "E Commerce App",
+        link:"",
+        items: [
+            {id:1, name:'React.js'},
+            {id:2, name:'JavaScript'},
+            {id:3, name:'HTML'},
+            {id:4, name:'CSS'},
+            {id:5, name:'Bootstrap'},
+            {id:6, name:'React-Redux'},
+            {id:7, name:'React-Router'},
+            {id:8, name:'Axios'},
+            {id:9, name:'Formik'},
+            {id:10, name:'Yup'},
+            {id:11, name:'JQuery'},
+            {id:12, name:'Node.js'},
+            {id:13, name:'Express.js'},
+            {id:14, name:'MongoDB'}
+        ]
+    },{
+        from: "2025",
+        to: "2025",
+        name: "Tagarer",
+        description: `tagarer site
+                        The tagarer website provides a database for reports, studies, and knowledge that is published and prepared for the purpose of trading, which are issued by government agencies, companies or the third sector.
+                        Researchers and those interested suffer from difficult and easy access to these versions to separate them in different and multiple communication websites and platforms, or to disrupt the links of access to these versions over time.
+                        The tagarer site seeks to provide a quick and easy user experience to access these circulating versions, with the name of the exporter's name and the link to access to it, with the ability to see and download`,
+        image: "",
+        company:"Freelance",
+        Project:"Tagarer",
+        title: "Tagarer",
+        link:"https://tagarer.com/",
+        items: [
+            {id:1, name:'React.js'},
+            {id:2, name:'JavaScript'},
+            {id:3, name:'HTML'},
+            {id:4, name:'CSS'},
+            {id:5, name:'Bootstrap'},
+            {id:6, name:'React-Redux'},
+            {id:7, name:'React-Router'},
+            {id:8, name:'Axios'},
+            {id:9, name:'Formik'},
+            {id:10, name:'Yup'},
+            {id:11, name:'JQuery'},
+            {id:12, name:'Node.js'},
+            {id:13, name:'Express.js'},
+            {id:14, name:'MongoDB'},
+            {id:16, name:'Stripe'},
+        ]
+    },{
+        from: "2025",
+        to: "2025",
+        name: "millionpixelsinarabic",
+        description: `A digital advertising platform inspired by the idea of ​​Million Dollaar Homepage, where users can buy pixel spaces to display their slogans and ads with links for their sites. Tap Payments has been combined to provide a smooth and safe payment experience, making it easier for individuals and companies to reserve their advertising space with ease.
+                        Main features:
+                        Pixel -based ads: the ability to buy and customize spaces to display brands.
+                        Safe payments: integration with Tap Payments to ensure reliable and rapid payments.
+                        Interactive interface: easy -to -use design and respond to all devices.
+                        Long -term vision: Ads remain permanently displayed to ensure maximum benefit.`,
+        image: "",
+        company:"Freelance",
+        Project:"millionpixelsinarabic",
+        title: "millionpixelsinarabic",
+        link:"https://millionpixelsinarabic.com/",
+        items: [
+            {id:1, name:'React.js'},
+            {id:2, name:'JavaScript'},
+            {id:3, name:'HTML'},
+            {id:4, name:'CSS'},
+            {id:5, name:'Bootstrap'},
+            {id:6, name:'React-Redux'},
+            {id:7, name:'React-Router'},
+            {id:8, name:'Axios'},
+            {id:9, name:'Formik'},
+            {id:10, name:'Yup'},
+            {id:11, name:'JQuery'},
+            {id:12, name:'Node.js'},
+            {id:13, name:'Express.js'},
+            {id:14, name:'MongoDB'},
+            {id:15, name:'Tap Payments'},
+        ]
+    },{
+        from: "2024",
+        to: "2024",
+        name: "Ekhtisaas",
+        description: `Achieving their professional goals by providing comprehensive information and training courses that help them obtain certificates approved in various fields.
+                        Main features:
+                        Comprehensive content covers various professional certificates in several specialties.
+                        Smooth user experience with responsive and easy to use design.
+                        Personal guidance to help users choose the appropriate certificate for their career.
+                        Continuous updates to ensure the provision of the latest information about the requirements of certificates and tests.`,
+        image: "",
+        company:"Freelance",
+        Project:"Ekhtisaas",
+        title: "Ekhtisaas",
+        link:"https://ekhtisaas.com/",
+        items: [
+            {id:1, name:'React.js'},
+            {id:2, name:'JavaScript'},
+            {id:3, name:'HTML'},
+            {id:4, name:'CSS'},
+            {id:5, name:'Bootstrap'},
+            {id:6, name:'React-Redux'},
+            {id:7, name:'React-Router'},
+            {id:8, name:'Axios'},
+            {id:9, name:'Formik'},
+            {id:10, name:'Yup'},
+            {id:11, name:'JQuery'},
+            {id:12, name:'Node.js'},
+            {id:13, name:'Express.js'},
+            {id:14, name:'MongoDB'},
+            {id:15, name:'Tap Payments'},
+        ]
+    },{
+        from: "2025",
+        to: "2025",
+        name: "taplink24",
+        description: `An integrated system that allows users to create bonds for their personal files and their autonomous traffic, with automatic generation of VCARD cards to facilitate information sharing. The system is completely integrated with a database for storing and managing data effectively, allowing users to update their information easily. It also provides unique links that can be shared for direct access to personal files.
+                    Main features:
+                    Dynamic bonds dedicated to self -biographies and personal information.
+                    Automatic generation of VCARD cards to facilitate data exchange.
+                    Advanced data management through integration with a strong database.
+                    The ability to update easily while maintaining a fixed link for the user.`,
+        image: "",
+        company:"Freelance",
+        Project:"taplink24",
+        title: "taplink24",
+        link:"https://taplink24.com/",
+        items: [
+            {id:1, name:'React.js'},
+            {id:2, name:'JavaScript'},
+            {id:3, name:'HTML'},
+            {id:4, name:'CSS'},
+            {id:5, name:'Bootstrap'},
+            {id:6, name:'React-Redux'},
+            {id:7, name:'React-Router'},
+            {id:8, name:'Axios'},
+            {id:9, name:'Formik'},
+            {id:10, name:'Yup'},
+            {id:11, name:'JQuery'},
+            {id:12, name:'Node.js'},
+            {id:13, name:'Express.js'},
+            {id:14, name:'MongoDB'},
+            {id:15, name:'Tap Payments'},
+        ]
+    },
 ]
+
+
+export const getSortedArchiveData =()=>{
+    const sortedData = ArchiveData.sort((a, b) => {
+        const yearA = parseInt(a.from);
+        const yearB = parseInt(b.from);
+        return yearB - yearA;
+    });
+    return sortedData;
+}

@@ -1,15 +1,17 @@
 import './NavComp.css'
 interface NavCompProps {
   Text: string;
+  active?: boolean;
 }
 
-const NavComp = ({ Text }: NavCompProps) => {
+const NavComp = ({ Text, active }:
+  NavCompProps
+) => {
   return (
-     <div className='line d-flex align-items-center'>
-         <div className='lineIn me-3'></div>
-         <p className='m-0'>{Text}</p>
-     </div>
-  )
-}
+    <div className={`nav-item ${active ? 'active' : ''}`}>
+      {Text}
+    </div>
+  );
+};
 
 export default NavComp

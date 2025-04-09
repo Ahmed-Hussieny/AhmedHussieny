@@ -3,9 +3,14 @@ import arrow from '../../assets/Icons/icons8-left-24.png'
 import './Archive.css'
 import ArchiveItem from './ArchiveItem'
 import Table from "react-bootstrap/Table";
-import { ArchiveData } from '../../assets/dumyData/ExData';
+import { getSortedArchiveData } from '../../assets/dumyData/ExData';
+import { useEffect } from 'react';
 const Archive = () => {
     const navigate = useNavigate();
+    const ArchiveData = getSortedArchiveData();
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    },[]);
     return (
         <div className="container mt-5 vh-100 text-start">
             <div className='alert alert-success text-center'>Other projects are being added soon!
@@ -31,7 +36,6 @@ const Archive = () => {
                 })}
                 </tbody>
             </Table>
-
         </div>
     )
 }
